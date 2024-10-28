@@ -91,7 +91,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
                 Text(text = "展翅飛翔")
                 Image(
                     painter = painterResource(id = R.drawable.fly),
-                    contentDescription = "飛翔",
+                    contentDescription = "飛",
                     modifier.size(50.dp)
                 )
             }
